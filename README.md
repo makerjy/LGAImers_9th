@@ -584,10 +584,11 @@ uv run pytest -q artifacts/lgaimers_final/tests
 python artifacts/lgaimers_final/submit_package/script.py
 ```
 
-최종 제출 결과는 [`artifacts/lgaimers_final/output/submission.csv`](artifacts/lgaimers_final/output/submission.csv),
-압축 패키지는 [`artifacts/lgaimers_final/submit.zip`](artifacts/lgaimers_final/submit.zip)에
-저장됩니다. 패키지에는 `script.py`, `requirements.txt`, `model/`만 포함하고
-`data/`와 `output/`은 포함하지 않습니다.
+최종 제출 결과는 [`artifacts/lgaimers_final/output/submission.csv`](artifacts/lgaimers_final/output/submission.csv)에
+저장됩니다. 제출 ZIP은 약 144MB로 GitHub 일반 파일 제한을 초과하므로 저장소에는
+포함하지 않았습니다. 로컬에서 패키지를 생성하면 `artifacts/lgaimers_final/submit.zip`에
+생성되며, 패키지에는 `script.py`, `requirements.txt`, `model/`만 포함하고 `data/`와
+`output/`은 포함하지 않습니다.
 
 ## Implementation과 확인 범위
 
